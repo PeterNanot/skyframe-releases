@@ -24,7 +24,7 @@ Vos projets et vos vidéos ne sont jamais modifiés.
 
 Depuis la version 0.12.0, Skyframe embarque **FFmpeg 9.0.2** compilé par [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
 (variante « win64-lgpl », sans composant GPL), distribué sous licence **GNU LGPL v3**. Le texte de la licence est
-installé avec Skyframe ().
+installé avec Skyframe (`resources/bin/FFMPEG-LICENSE.txt`).
 
 Code source correspondant :
 
