@@ -22,11 +22,16 @@ Vos projets et vos vidéos ne sont jamais modifiés.
 
 ## Licences des composants
 
-Skyframe embarque **FFmpeg 9.0.2** (version « essentials » compilée par [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)),
-distribué sous licence **GNU GPL v3**. Le texte de la licence est installé avec Skyframe (`bin/FFMPEG-LICENSE.txt`).
+Depuis la version 0.12.0, Skyframe embarque **FFmpeg 9.0.2** compilé par [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
+(variante « win64-lgpl », sans composant GPL), distribué sous licence **GNU LGPL v3**. Le texte de la licence est
+installé avec Skyframe ().
 
 Code source correspondant :
 
-- FFmpeg 9.0.2 : <https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz>
-- Compilation utilisée (archive et informations de compilation) :
-  <https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2>
+- FFmpeg 9.0.2 : <https://github.com/FFmpeg/FFmpeg/tree/n9.0.2> et <https://ffmpeg.org/releases/>
+- Scripts de compilation : <https://github.com/BtbN/FFmpeg-Builds>
+- Archive utilisée (copie à l'identique) : <https://github.com/PeterNanot/skyframe-releases/releases/tag/ffmpeg-9.0.2-lgpl>
+
+Les versions 0.11.0 et antérieures embarquaient FFmpeg 9.0.2 « essentials » de [gyan.dev](https://www.gyan.dev/ffmpeg/builds/),
+sous licence GNU GPL v3 (sources : <https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz>,
+<https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2>).
